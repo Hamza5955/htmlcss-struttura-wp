@@ -3,24 +3,28 @@
     padding: 0;
     box-sizing: border-box;
  }
- header, footer {
-     height: 200px;
-     background: purple;
+ header {
+     height: 100px;
+     background: rgb(218, 118, 201);
+ }
+ footer{
+     height: 100px;
+     background: rgb(155, 60, 155);
  }
  .main-sup {
      height: 400px;
-     background: yellow;
+     background: rgb(165, 165, 26);
      margin: 20px 0;
 
  }
  .main-inf {
-     background: blue;
+     background: rgb(40, 154, 230);
      color: white;
      width: 100%;
      margin: 20px 0 10px 0;
  }
  .titolo {
-     background: turquoise;
+     background: lightskyblue;
  }
  .sidebar, .center {
      float: left;
