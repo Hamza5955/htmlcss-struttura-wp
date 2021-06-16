@@ -1,0 +1,41 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ header, footer {
+     height: 200px;
+     background: purple;
+ }
+ .main-sup {
+     height: 400px;
+     background: yellow;
+     margin: 20px 0;
+
+ }
+ .main-inf {
+     background: blue;
+     color: white;
+     width: 100%;
+     margin: 20px 0 10px 0;
+ }
+ .titolo {
+     background: turquoise;
+ }
+ .sidebar, .center {
+     float: left;
+     background: lightblue;
+     margin-top: 20px;
+ }
+ .sidebar {
+     width: calc((100% / 5) - 20px);
+ }
+ .center {
+     width: calc(100% / 5 * 3);
+     margin: 20px;
+ }
+ .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+ }
